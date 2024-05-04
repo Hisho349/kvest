@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    max-width: 1440;
+    max-height: 900px;
+}
+
+.registration {
+    width: 50%;
+    padding-top: 132px;
+    padding-right: 72px;
+    padding-left: 72px;
+    padding-bottom: 132.88px;
+}
+
+.website {
+    width: max-content;
+}
+
+.logo {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    margin: 0;
+    position: absolute;
+    padding-left: 41px;
+    padding-top: 31px;
+}
+
+.signin {
+    max-width: 431px;
+    margin: auto;
+    display: none;
+}
+
+.signup {
+    max-width: 430px;
+    margin: auto;
+
+}
+
+.signin_title {
+    color: rgb(0, 0, 0);
+font-size: 30px;
+font-weight: 500;
+line-height: 45px;
+}
+
+.signin_descr {
+    margin: 0;
+    margin-bottom: 6px;
+    color: rgb(0, 0, 0);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+}
+
+.signin_link {
+    margin: 0;
+    margin-bottom: 52px;
+font-size: 16px;
+line-height: 24px;
+}
+
+.sign_tosignup {
+    border: none;
+    background-color: transparent;
+    color: rgb(255, 67, 42);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.form {
+    margin-bottom: 39px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form_label {
+    color: rgb(0, 0, 0);
+font-size: 13px;
+font-weight: 500;
+line-height: 20px;
+margin-bottom: 10px;
+}
+
+.form_input {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(153, 153, 153);
+    padding-bottom: 9px;
+    padding-left: 25px;
+}
+
+.pass_img {
+    background-image: url(/img/Vector.svg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    margin-bottom: 95px;
+}
+
+.email {
+    margin-bottom: 49px;
+}
+
+.form_btn {
+    border: none;
+    background-color: transparent;
+    border-radius: 32px;
+box-shadow: 0px 4px 26px 0px rgba(0, 0, 0, 0.25);
+background: rgb(255, 67, 42);
+padding-top: 14px;
+padding-bottom: 14px;
+color: rgb(255, 255, 255);
+font-size: 17px;
+font-weight: 500;
+line-height: 26px;
+cursor: pointer;
+}
+
+.signin_continue {
+    margin: 0;
+    margin-bottom: 31px;
+    color: rgb(181, 181, 181);
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+text-align: center;
+}
+
+.signin_images {
+    max-width: 165px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user_img{
+    background-image: url(/img/user\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.email_img{
+    background-image: url(/img/email.svg);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.form_up input {
+    margin-bottom: 42px;
+}
